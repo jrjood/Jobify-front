@@ -302,7 +302,7 @@ Error generating stack: `+i.message+`
     color: var(--primary-500);
     text-transform: capitalize;
   }
-`,t1="/Jobify-front/assets/not-found-o2LH7SOx.svg",n1=()=>Jf().status===404?$.jsx(Of,{children:$.jsxs("div",{children:[$.jsx("img",{src:t1,alt:"Not found"}),$.jsx("h3",{children:"Ohh! page not found"}),$.jsx("p",{children:"We can't seem to find the page you are looking for"}),$.jsx(Xr,{to:"/dashboard",children:"back home"})]})}):$.jsx(Of,{children:$.jsx("div",{children:$.jsx("h3",{children:"Something went wrong"})})}),r1=()=>$.jsx($.Fragment,{children:$.jsx(qf,{})}),l1=_n.section`
+`,t1="/assets/not-found-o2LH7SOx.svg",n1=()=>Jf().status===404?$.jsx(Of,{children:$.jsxs("div",{children:[$.jsx("img",{src:t1,alt:"Not found"}),$.jsx("h3",{children:"Ohh! page not found"}),$.jsx("p",{children:"We can't seem to find the page you are looking for"}),$.jsx(Xr,{to:"/dashboard",children:"back home"})]})}):$.jsx(Of,{children:$.jsx("div",{children:$.jsx("h3",{children:"Something went wrong"})})}),r1=()=>$.jsx($.Fragment,{children:$.jsx(qf,{})}),l1=_n.section`
   nav {
     width: var(--fluid-width);
     max-width: var(--max-width);
@@ -350,7 +350,7 @@ Error generating stack: `+i.message+`
       display: block;
     }
   }
-`,o1="/Jobify-front/assets/main-B7AeweMc.svg",i1=()=>$.jsxs(l1,{children:[$.jsx("nav",{children:$.jsx(Wl,{})}),$.jsxs("div",{className:"container page",children:[$.jsxs("div",{className:"info",children:[$.jsxs("h1",{children:["Job ",$.jsx("span",{children:"Tracking"})," App"]}),$.jsx("p",{children:"I'm baby wayfarers hoodie next level taiyaki brooklyn cliche blue bottle single-origin coffee chia. Aesthetic post-ironic venmo, quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch narwhal."}),$.jsx(Xr,{to:"/register",className:"btn register-link",children:"Register"}),$.jsx(Xr,{to:"/login",className:"btn",children:"Login/Demo"})]}),$.jsx("img",{src:o1,alt:"Job hunt",className:"img main-img"})]})]}),pd=_n.section`
+`,o1="/assets/main-B7AeweMc.svg",i1=()=>$.jsxs(l1,{children:[$.jsx("nav",{children:$.jsx(Wl,{})}),$.jsxs("div",{className:"container page",children:[$.jsxs("div",{className:"info",children:[$.jsxs("h1",{children:["Job ",$.jsx("span",{children:"Tracking"})," App"]}),$.jsx("p",{children:"I'm baby wayfarers hoodie next level taiyaki brooklyn cliche blue bottle single-origin coffee chia. Aesthetic post-ironic venmo, quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch narwhal."}),$.jsx(Xr,{to:"/register",className:"btn register-link",children:"Register"}),$.jsx(Xr,{to:"/login",className:"btn",children:"Login/Demo"})]}),$.jsx("img",{src:o1,alt:"Job hunt",className:"img main-img"})]})]}),pd=_n.section`
   min-height: 100vh;
   display: grid;
   align-items: center;
