@@ -12,7 +12,7 @@ const Error = () => {
           <img src={img} alt="Not found" />
           <h3>Ohh! page not found</h3>
           <p>We can't seem to find the page you are looking for</p>
-          <Link to="/dashboard">back home</Link>
+          <Link to="/Jobify-front/dashboard">back home</Link>
         </div>
       </Wrapper>
     );

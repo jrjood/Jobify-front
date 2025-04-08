@@ -23,7 +23,7 @@ const Login = () => {
         </button>
         <p>
           Not a member yet?{' '}
-          <Link to="/register" className="member-btn">
+          <Link to="/Jobify-front/register" className="member-btn">
             Register
           </Link>
         </p>

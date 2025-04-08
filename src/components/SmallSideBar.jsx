@@ -31,6 +31,7 @@ const SmallSideBar = () => {
                   key={text}
                   className="nav-link"
                   onClick={toggleSideBar}
+                  end
                 >
                   <span className="icon">{icon}</span>
                   {text}

@@ -19,10 +19,11 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       { index: true, element: <Landing /> },
-      { path: 'register', element: <Register /> },
-      { path: 'login', element: <Login /> },
+      { path: 'Jobify-front', element: <Landing /> },
+      { path: '/Jobify-front/register', element: <Register /> },
+      { path: '/Jobify-front/login', element: <Login /> },
       {
-        path: 'dashboard',
+        path: '/Jobify-front/dashboard',
         element: <DashboardLayout />,
         children: [
           { index: true, element: <AddJob /> },

@@ -29,7 +29,7 @@ const Register = () => {
         </button>
         <p>
           Already a member?
-          <Link to="/login" className="member-btn">
+          <Link to="/Jobify-front/login" className="member-btn">
             Login
           </Link>
         </p>
