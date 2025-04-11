@@ -19,13 +19,18 @@ const Wrapper = styled.div`
     left: 0;
     width: 100%;
     box-shadow: var(--shadow-2);
+    transform: translateY(-1.25rem);
     text-align: center;
     visibility: hidden;
+    opacity: 0;
     border-radius: var(--border-radius);
     background: var(--primary-500);
+    transition: all 0.3s ease;
   }
   .show-dropdown {
     visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
   }
   .dropdown-btn {
     border-radius: var(--border-radius);
@@ -38,6 +43,11 @@ const Wrapper = styled.div`
     cursor: pointer;
     width: 100%;
     height: 100%;
+    transition: var(--transition);
+  }
+  .dropdown-btn:hover {
+    background: var(--primary-700);
+    box-shadow: var(--shadow-3);
   }
 `;
 

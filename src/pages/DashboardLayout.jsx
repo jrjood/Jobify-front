@@ -12,11 +12,11 @@ const DashboardLayout = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   const toggleSideBar = () => {
-    setShowSideBar((prevState) => !prevState);
+    setShowSideBar((prevSideBar) => !prevSideBar);
   };
 
   const toggleDarkTheme = () => {
-    console.log('Dark theme');
+    setIsDarkTheme((prevTheme) => !prevTheme);
   };
 
   const logoutUser = async () => {
@@ -35,12 +35,12 @@ const DashboardLayout = () => {
       }}
     >
       <Wrapper>
-        <main className="dashboard">
+        <main className='dashboard'>
           <SmallSideBar />
           <BigSideBar />
           <div>
             <NavBar />
-            <div className="dashboard-page">
+            <div className='dashboard-page'>
               <Outlet />
             </div>
           </div>
